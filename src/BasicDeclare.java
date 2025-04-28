@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class BasicDeclare {
     public static void main(String[] args) throws Exception {
         /* 基本型別介紹
@@ -34,8 +36,21 @@ public class BasicDeclare {
 
         // boolean isStudent = true; // false
         // System.out.println(isStudent);
+        int a = 10;
+        float b = 20.5F; // 這裡加上 F, 代表 float 型別
+        double sum;
+        sum = a + b; // 這裡 sum 是 double 型別, 因為 b 是 float 型別, 所以會自動轉型
+        System.out.println(a + b); // 30.5
+        System.out.println(sum); // 30.5
+        String str = "Hello World!"; // 字串
+        System.out.println(str + sum); // Hello World!
 
-
+        int[] array = {1, 2, 3, 4, 5};
+        ArrayList<Integer> array2 = new ArrayList<>();
+        array2.add(1);
+        array2.add(2);
+        array2.add(3);
+        array2.remove(1); // 刪除 index 1 的元素
         /*
          * 陣列(Array)宣告
          * 陣列的長度是固定的, 不能改變
