@@ -18,6 +18,7 @@ public class ConditionAndLoop {
         //     System.out.println("a 沒有 <= b");
         // }
 
+
         /*
          * else if
          * 
@@ -113,6 +114,23 @@ public class ConditionAndLoop {
         // for (int index = 0; index <= students.length - 1; index++) {
         //     System.out.println(students[index]);
         // }
+        int score = 77;
+        System.out.println("Score: " + getRankByScore(score));
 
+    }
+    public static String getRankByScore(int score) {
+        String rank = "";
+        if (score >= 90) {
+            rank = "A";
+        } else if (score >= 80) {
+            rank = "B";
+        } else if (score >= 70) {
+            rank = "C";
+        } else if (score >= 60) {
+            rank = "D";
+        } else {
+            rank = "E";
+        }
+        return rank;
     }
 }
