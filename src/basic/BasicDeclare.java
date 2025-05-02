@@ -1,9 +1,7 @@
-<<<<<<< HEAD:src/BasicDeclare.java
-import java.util.ArrayList;
 
-=======
 package basic;
->>>>>>> a88c69185f548c9916e75b62b31c0ff5b6bbc8a0:src/basic/BasicDeclare.java
+
+import java.util.ArrayList;
 public class BasicDeclare {
     public static void main(String[] args) throws Exception {
         /* 基本型別介紹
