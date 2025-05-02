@@ -1,3 +1,4 @@
+package basic;
 public class LogicalOperation {
     public static void main(String[] args) throws Exception {
         /*
@@ -57,7 +58,7 @@ public class LogicalOperation {
         /*
          *  == : 等於
          */
-        // int a = 5;
+        // int a = 12;
         // int b = 12;
 
         // boolean isEqual = (a == b);
@@ -97,6 +98,8 @@ public class LogicalOperation {
         /*
          *  >= : 大於或等於
          */
+        // int a = 12;
+        // int b = 12;
         //  boolean greaterThenOrEqual = (a >= b);
         //  System.out.println(greaterThenOrEqual);
  
@@ -110,18 +113,24 @@ public class LogicalOperation {
         /*
          *  && : 並且
          */
-        // boolean and = (a < b) && (b > a);
+        // int a = 3;
+        // int b = 5;
+        // boolean and = (a == 2) && (b == 5);
         // System.out.println(and);
 
         /*
          *  || : 或者
          */
-        // boolean or = (a < b) || (b < a);
+        // int a = 3;
+        // int b = 5;
+        // boolean or = (a == 1) || (b == 4);
         // System.out.println(or);
 
         /*
          *  !  : 反轉
          */
+        // int a = 3;
+        // int b = 4;
         // boolean not = !(a < b);
         // System.out.println(not);
 
@@ -129,6 +138,7 @@ public class LogicalOperation {
          *  ++ : 自增1
          */
         // int a = 5;
+        // // a = a + 1;
         // a++;
         // System.out.println(a);
 
@@ -136,6 +146,7 @@ public class LogicalOperation {
          *  -- : 自減1
          */
         // int a = 5;
+        // // a = a - 1;
         // a--;
         // System.out.println(a);
 
@@ -144,7 +155,17 @@ public class LogicalOperation {
          */
         // int a = 5;
         // a += 2;
+        // // a = a + 2;
         // System.out.println(a);
+        
+
+        /*
+         * 250428補充: 字串串接別的文字
+         */
+        // String test1 = "I am";
+        // test1 = test1 + " a teacher";
+        // System.out.println(test1);
+
 
         /*
          *  -= : 減法後再賦值
